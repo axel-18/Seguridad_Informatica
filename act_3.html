@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> act_3 </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="header" >
+Actividades a desarrollar </div>
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">act_1</a></div>
+<div><a href="act_2.html" class="withChild">act_2</a></div>
+<div id="subnav" class="withChild">
+<div id="active" class="withChild">act_3</div>
+<div id="subnav" class="withoutChild">
+<div><a href="act_1.html" class="withoutChild">act_1</a></div>
+</div>
+</div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">act_3</p></div>
+<div class="QuizTestIdevice" id="id5">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 5;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var question4;
+var key0 = 0;
+var key1 = 3;
+var key2 = 3;
+var key3 = 2;
+var key4 = 0;
+function getAnswer()
+        {
+            for (var i=0; i < 3; i++)
+            {
+               if (document.getElementById("quizForm5").key0b5[i].checked)
+               {
+                  question0 = document.getElementById("quizForm5").key0b5[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key1b5[i].checked)
+               {
+                  question1 = document.getElementById("quizForm5").key1b5[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key2b5[i].checked)
+               {
+                  question2 = document.getElementById("quizForm5").key2b5[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key3b5[i].checked)
+               {
+                  question3 = document.getElementById("quizForm5").key3b5[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm5").key4b5[i].checked)
+               {
+                  question4 = document.getElementById("quizForm5").key4b5[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+            if (question2 == key2)
+            {
+               rawScore++;
+            }
+            if (question3 == key3)
+            {
+               rawScore++;
+            }
+            if (question4 == key4)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            document.getElementById("quizForm5").submitB.disabled = true;
+            alert("Your score is " + actualScore + "%")
+           
+        }
+//]]>    -->
+    </script>
+<form name="quizForm5" id="quizForm5" action="javascript:calcScore2();">
+<div class="iDevice emphasis1">
+<img alt="" class="iDevice_icon" src="icon_question.gif" />
+<span class="iDeviceTitle">Examen SCORM</span>
+<div class="iDevice_inner">
+<div class="passrate" value="100"></div>
+<div class="question">
+<div id="taquestion0b5" class="block" style="display:block">¿qué es un virus informatico?
+</div><br/>
+<table><tr><td><input type="radio" name="key0b5" value="0" />
+</td><td>
+<div id="taoptionAnswer0q0b5" class="block" style="display:block">Un codigo malicioso cuyo fin es dañar
+</div></td></tr>
+<tr><td><input type="radio" name="key0b5" value="1" />
+</td><td>
+<div id="taoptionAnswer1q0b5" class="block" style="display:block">Una enfermedad que afecta al computador
+</div></td></tr>
+<tr><td><input type="radio" name="key0b5" value="2" />
+</td><td>
+<div id="taoptionAnswer2q0b5" class="block" style="display:block">Un codigo malicioso cuya finalidad es robar información
+</div></td></tr>
+</table></div>
+<br/><div class="question">
+<div id="taquestion1b5" class="block" style="display:block">¿Qué es un hacker?
+</div><br/>
+<table><tr><td><input type="radio" name="key1b5" value="0" />
+</td><td>
+<div id="taoptionAnswer0q1b5" class="block" style="display:block">Un criminal cibernetico
+</div></td></tr>
+<tr><td><input type="radio" name="key1b5" value="1" />
+</td><td>
+<div id="taoptionAnswer1q1b5" class="block" style="display:block">Un ladron tecnologico
+</div></td></tr>
+<tr><td><input type="radio" name="key1b5" value="2" />
+</td><td>
+<div id="taoptionAnswer2q1b5" class="block" style="display:block">Un ingeniero que trabaja en campañas politacas
+</div></td></tr>
+<tr><td><input type="radio" name="key1b5" value="3" />
+</td><td>
+<div id="taoptionAnswer3q1b5" class="block" style="display:block">Persona apasionada por los lenguajes de programación
+</div></td></tr>
+</table></div>
+<br/><div class="question">
+<div id="taquestion2b5" class="block" style="display:block">¿Cuál de las siguientes contraseña es la mas recomendable?
+</div><br/>
+<table><tr><td><input type="radio" name="key2b5" value="0" />
+</td><td>
+<div id="taoptionAnswer0q2b5" class="block" style="display:block">9871643
+</div></td></tr>
+<tr><td><input type="radio" name="key2b5" value="1" />
+</td><td>
+<div id="taoptionAnswer1q2b5" class="block" style="display:block">gurnar
+</div></td></tr>
+<tr><td><input type="radio" name="key2b5" value="2" />
+</td><td>
+<div id="taoptionAnswer2q2b5" class="block" style="display:block">nacionalcampeon
+</div></td></tr>
+<tr><td><input type="radio" name="key2b5" value="3" />
+</td><td>
+<div id="taoptionAnswer3q2b5" class="block" style="display:block">etndhi5jcn8#j4
+</div></td></tr>
+</table></div>
+<br/><div class="question">
+<div id="taquestion3b5" class="block" style="display:block">Que es un barrido de puertos sobre un servidor?
+</div><br/>
+<table><tr><td><input type="radio" name="key3b5" value="0" />
+</td><td>
+<div id="taoptionAnswer0q3b5" class="block" style="display:block">Un ataque de Dos
+</div></td></tr>
+<tr><td><input type="radio" name="key3b5" value="1" />
+</td><td>
+<div id="taoptionAnswer1q3b5" class="block" style="display:block">Una escucha de red
+</div></td></tr>
+<tr><td><input type="radio" name="key3b5" value="2" />
+</td><td>
+<div id="taoptionAnswer2q3b5" class="block" style="display:block">Un ataque de reconocimiento
+</div></td></tr>
+<tr><td><input type="radio" name="key3b5" value="3" />
+</td><td>
+<div id="taoptionAnswer3q3b5" class="block" style="display:block">Una escalada de puertos
+</div></td></tr>
+</table></div>
+<br/><div class="question">
+<div id="taquestion4b5" class="block" style="display:block">Una empresa necesita, a un bajo costoe, una solucion de seguridad que integre varios servicios como cortafuegos, deteccion de intrusos, antivirus, etc. ¿Qué le recomendarias)
+</div><br/>
+<table><tr><td><input type="radio" name="key4b5" value="0" />
+</td><td>
+<div id="taoptionAnswer0q4b5" class="block" style="display:block">Instalar un UTM
+</div></td></tr>
+<tr><td><input type="radio" name="key4b5" value="1" />
+</td><td>
+<div id="taoptionAnswer1q4b5" class="block" style="display:block">No existe una solucion de bajo coste
+</div></td></tr>
+<tr><td><input type="radio" name="key4b5" value="2" />
+</td><td>
+<div id="taoptionAnswer2q4b5" class="block" style="display:block">Adquirir un dispositivo para cada uno de los servicios
+</div></td></tr>
+<tr><td><input type="radio" name="key4b5" value="3" />
+</td><td>
+<div id="taoptionAnswer3q4b5" class="block" style="display:block">Contratar los servicios de una empresa de seguridad
+</div></td></tr>
+</table></div>
+<br/><input type="submit" name="submitB" value="Respuestas propuestas"/>
+</div></div>
+</form>
+</div>
+<div class="noprt" align="right"><a href="act_2.html">&laquo; Anterior</a> | <a href="act_1.html"> Siguiente &raquo;</a></div>
+</div>
+</div>
+</body></html>
