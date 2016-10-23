@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> Actividad_1 </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="navcontainer">
+<ul id="navlist">
+<div id="active" class="withChild">Actividad_1</div>
+<div><a href="actividad_2.html" class="withChild">Actividad_2</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">Actividad_1</p></div>
+<div class="MultiSelectIdevice" id="id12">
+<div class="iDevice emphasis1">
+<img alt="" class="iDevice_icon" src="icon_question.gif" />
+<span class="iDeviceTitle">Pregunta de Selección Múltiple</span>
+<div class="iDevice_inner">
+</div></div>
+</div>
+<div class="QuizTestIdevice" id="id13">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 0;
+function getAnswer()
+        {
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm13").key0b13[i].checked)
+               {
+                  question0 = document.getElementById("quizForm13").key0b13[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm13").key1b13[i].checked)
+               {
+                  question1 = document.getElementById("quizForm13").key1b13[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            document.getElementById("quizForm13").submitB.disabled = true;
+            alert("Your score is " + actualScore + "%")
+           
+        }
+//]]>    -->
+    </script>
+<form name="quizForm13" id="quizForm13" action="javascript:calcScore2();">
+<div class="iDevice emphasis1">
+<img alt="" class="iDevice_icon" src="icon_question.gif" />
+<span class="iDeviceTitle">Examen SCORM</span>
+<div class="iDevice_inner">
+<div class="passrate" value="50"></div>
+<div class="question">
+<div id="taquestion0b13" class="block" style="display:block">
+<p>
+<b style="font-weight: bold; color: #006680; font-size: 20px; font-family: Arial,Helvetica,sans-serif; font-style: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: #ffffff">Legislación en seguridad informatica en Colombia</b>
+</p>
+<p>
+<span style="color: #333333; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-style: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: #ffffff; display: inline ! important; float: none">Cual es la ley que habla sobre derecho de autor, que protege la imagen individual frente a varias formas de abuso.</span>
+</p>
+<p>
+<b style="font-weight: bold; color: #006680; font-size: 20px; font-family: Arial,Helvetica,sans-serif; font-style: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: #ffffff"></b>
+</p>
+</div><br/>
+<table><tr><td><input type="radio" name="key0b13" value="0" />
+</td><td>
+<div id="taoptionAnswer0q0b13" class="block" style="display:block">Ley 57
+</div></td></tr>
+<tr><td><input type="radio" name="key0b13" value="1" />
+</td><td>
+<div id="taoptionAnswer1q0b13" class="block" style="display:block">Ley 170
+</div></td></tr>
+<tr><td><input type="radio" name="key0b13" value="2" />
+</td><td>
+<div id="taoptionAnswer2q0b13" class="block" style="display:block">Ley 23
+</div></td></tr>
+<tr><td><input type="radio" name="key0b13" value="3" />
+</td><td>
+<div id="taoptionAnswer3q0b13" class="block" style="display:block">Ley 44
+</div></td></tr>
+</table></div>
+<br/><div class="question">
+<div id="taquestion1b13" class="block" style="display:block"><span style="color: #000000; font-family: Arial,Helvetica,sans-serif; font-size: 18px; font-style: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: #ffffff; display: inline ! important; float: none">Segun la legislación en seguridad informatica en Colombia ¿Cuál es la ley que,<span class="Apple-converted-space"> </span></span><span style="color: #000000; font-style: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-family: Arial,sans-serif; font-size: 12.8px; text-align: justify; background-color: #ffffff; float: none; display: inline ! important">por la cual se establecen normas para promover y regular el Teletrabajo y se dictan otras disposiciones (Diario Oficial nº 47.052)?</span>
+</div><br/>
+<table><tr><td><input type="radio" name="key1b13" value="0" />
+</td><td>
+<div id="taoptionAnswer0q1b13" class="block" style="display:block">Ley 1221
+</div></td></tr>
+<tr><td><input type="radio" name="key1b13" value="1" />
+</td><td>
+<div id="taoptionAnswer1q1b13" class="block" style="display:block">Ley 1245
+</div></td></tr>
+<tr><td><input type="radio" name="key1b13" value="2" />
+</td><td>
+<div id="taoptionAnswer2q1b13" class="block" style="display:block">Ley 1266
+</div></td></tr>
+<tr><td><input type="radio" name="key1b13" value="3" />
+</td><td>
+<div id="taoptionAnswer3q1b13" class="block" style="display:block">Ley 1341
+</div></td></tr>
+</table></div>
+<br/><input type="submit" name="submitB" value="Respuestas propuestas"/>
+</div></div>
+</form>
+</div>
+<div class="noprt" align="right"><a href="actividad_2.html"> Siguiente &raquo;</a></div>
+</div>
+</div>
+</body></html>

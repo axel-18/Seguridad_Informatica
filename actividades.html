@@ -11,6 +11,20 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link href='http://fonts.googleapis.com/css?family=arial' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
+
+
+        <style type="text/css">
+        li ul{
+          display:none;
+          position:absolute;
+      }
+      li:hover ul{
+          display:block; 
+    }
+      li:hover li{
+          float:none;
+          }
+        </style>
      </head>
     <body>	
         <Div id="contenidos">
@@ -27,7 +41,14 @@
                 <li><a href="index.html" class="menu">Inicio</a></li>
                 <li><a href="lecturas.html" class="menu">Lecturas</a></li>
                 <li><a href="multimedia.html" class="menu">Multimedia</a></li>
-                <li><a href="actividades.html" class="menu">Actividades</a></li>
+                <li><a href="actividades.html" class="menu">Actividades</a>
+
+                  <ul> 
+                       <li><a href="act_1.html"> Actividades1</a> </li>
+                       <li><a href="act_1.html"> Actividades2</a> </li>
+                       <li><a href="act_1.html"> Actividades3</a> </li>
+                  </ul></li>
+                  
                 <li><a href="autores.html" class="menu">Autores</a></li>
                 <div id="apDiv19">
                 <center>
@@ -64,17 +85,134 @@
     <section>
     <h2>Diseño de Sitios Web - UNAD ECBTI</h2>
     <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
-                <article>
-                    <figure>
-                        <img src="img/diseno_web.jpg" alt="Diseno">
-                  	</figure>
-                    <p>
-                        Propósitos del curso:<br>
-                        • Que el estudiante se fundamente teóricamente sobre las generalidades básicas del Diseño Web.<br>
-                        • Que el estudiante pueda utilizar de forma correcta los lenguajes HTML5 y CSS3 para aplicarlos en la solución de problemas de construcción de Sitios Web.<br>
-                        • Que el estudiante implemente servicios y sitios web a través de los sistemas gestores de contenidos CMS y LMS libres más usados en la actualidad.<br>
-                    </p>
-      			</article>
+                <div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">Act_1</p></div>
+<div class="QuizTestIdevice" id="id0">
+<script type="text/javascript">
+<!-- //<![CDATA[
+var numQuestions = 2;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var key0 = 2;
+var key1 = 0;
+function getAnswer()
+        {
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key0b0[i].checked)
+               {
+                  question0 = document.getElementById("quizForm0").key0b0[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm0").key1b0[i].checked)
+               {
+                  question1 = document.getElementById("quizForm0").key1b0[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            document.getElementById("quizForm0").submitB.disabled = true;
+            alert("Your score is " + actualScore + "%")
+           
+        }
+//]]>    -->
+    </script>
+<form name="quizForm0" id="quizForm0" action="javascript:calcScore2();">
+<div class="iDevice emphasis1">
+<img alt="" class="iDevice_icon" src="icon_question.gif" />
+<span class="iDeviceTitle">Examen SCORM</span>
+<div class="iDevice_inner">
+<div class="passrate" value="50"></div>
+<div class="question">
+<div id="taquestion0b0" class="block" style="display:block">
+
+<p align="center">
+
+<b>Legislación en seguridad informatica en Colombia</b>
+
+</p>
+
+<p>
+
+Cual es la ley que habla sobre derecho de autor, que protege la imagen individual frente a varias formas de abuso.
+
+</p>
+
+</div><br/>
+<table><tr><td><input type="radio" name="key0b0" value="0" />
+</td><td>
+<div id="taoptionAnswer0q0b0" class="block" style="display:block">Ley 57
+
+</div></td></tr>
+<tr><td><input type="radio" name="key0b0" value="1" />
+</td><td>
+<div id="taoptionAnswer1q0b0" class="block" style="display:block">Ley 170
+
+</div></td></tr>
+<tr><td><input type="radio" name="key0b0" value="2" />
+</td><td>
+<div id="taoptionAnswer2q0b0" class="block" style="display:block">Ley 23
+
+</div></td></tr>
+<tr><td><input type="radio" name="key0b0" value="3" />
+</td><td>
+<div id="taoptionAnswer3q0b0" class="block" style="display:block">Ley 44
+
+</div></td></tr>
+</table></div>
+<br/><div class="question">
+<div id="taquestion1b0" class="block" style="display:block">Segun la legislación en seguridad informatica en Colombia  ¿Cuál es la ley que, <span style="color: #000000; font-family: Arial,sans-serif; font-size: 12.8px; font-style: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: #ffffff; display: inline ! important; float: none">por la cual se establecen normas para promover y regular el Teletrabajo y se dictan otras disposiciones (Diario Oficial nº 47.052)?</span>
+
+</div><br/>
+<table><tr><td><input type="radio" name="key1b0" value="0" />
+</td><td>
+<div id="taoptionAnswer0q1b0" class="block" style="display:block">Ley 1221
+
+</div></td></tr>
+<tr><td><input type="radio" name="key1b0" value="1" />
+</td><td>
+<div id="taoptionAnswer1q1b0" class="block" style="display:block">Ley 1245
+
+</div></td></tr>
+<tr><td><input type="radio" name="key1b0" value="2" />
+</td><td>
+<div id="taoptionAnswer2q1b0" class="block" style="display:block">Ley 1266
+
+</div></td></tr>
+<tr><td><input type="radio" name="key1b0" value="3" />
+</td><td>
+<div id="taoptionAnswer3q1b0" class="block" style="display:block">Ley 1341
+
+</div></td></tr>
+</table></div>
+<br/><input type="submit" name="submitB" value="Respuestas propuestas"/>
+
+
     </section>
     <aside> 
                 <div id="apDiv5">
