@@ -11,6 +11,24 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link href='http://fonts.googleapis.com/css?family=arial' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
+	     @import url(base.css);
+        @import url(content.css);
+        @import url(nav.css);</style>
+        <script type="text/javascript" src="common.js"></script>
+	
+	<style type="text/css">
+        li ul{
+          display:none;
+          position:absolute;
+      }
+      li:hover ul{
+          display:block; 
+    }
+      li:hover li{
+          float:none;
+          }
+        </style>
+	
      </head>
     <body>	
         <Div id="contenidos">
@@ -27,7 +45,12 @@
                 <li><a href="index.html" class="menu">Inicio</a></li>
                 <li><a href="lecturas.html" class="menu">Lecturas</a></li>
                 <li><a href="multimedia.html" class="menu">Multimedia</a></li>
-                <li><a href="actividades.html" class="menu">Actividades</a></li>
+                <li><a href="actividades.html" class="menu">Actividades</a>
+		      <ul> 
+                       <li><a href="act_1.html"> Actividades1</a> </li>
+                       <li><a href="act_1.html"> Actividades2</a> </li>
+                       <li><a href="act_1.html"> Actividades3</a> </li>
+                  </ul></li>
                 <li><a href="autores.html" class="menu">Autores</a></li>
                 <div id="apDiv19">
                 <center>
