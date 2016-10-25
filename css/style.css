@@ -27,7 +27,7 @@
 	left: 771px;
             }
             #apDiv4 {
-	position: absolute;
+	position:absolute;
 	width: 123px;
 	height: 34px;
 	z-index: 1;
@@ -271,59 +271,6 @@ div {
 	position: relative;
 	color: #000;
 }
-
-#autores{
-	width: 999px;
-	background: white;
-	height: 720px;
-	float: left;
-	margin-top: 7px;
-	border-radius: 10px 0px 0px 0px;
-}
-
-#autor01{
-	width: 300px;
-	background: white;
-	height: 300px;
-	float: left;
-	margin-top: 7px;
-	border-radius: 10px 0px 0px 0px;
-}
-#autor02{
-	width: 300px;
-	background: white;
-	height: 300px;
-	float: left;
-	margin-top: 7px;
-	border-radius: 10px 0px 0px 0px;
-}
-#autor03{
-	width: 300px;
-	background: white;
-	height: 300px;
-	float: left;
-	margin-top: 7px;
-	border-radius: 10px 0px 0px 0px;
-}
-#autor04{
-	width: 300px;
-	background: white;
-	height: 300px;
-	float: left;
-	margin-top: 7px;
-	border-radius: 10px 0px 0px 0px;
-}
-
-#multimedia{
-width: 999px;
-	background: white;
-	height: 720px;
-	float: left;
-	margin-top: 7px;
-	border-radius: 10px 0px 0px 0px;
-
-
-}
 /*ETIQUETAS*/
 body{
 
@@ -386,8 +333,6 @@ section{
 	float: left;
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
-	
-
 }
 aside{
 	width: 280px;
@@ -417,6 +362,7 @@ p{
 	padding: 10px;
 	text-align: justify;
 }
+
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
@@ -424,6 +370,7 @@ p{
 	color: #FFF;
 	text-decoration: none;
 }
+
 .menu:visited{
 	color: #FFF;
 	text-decoration: none;
@@ -437,6 +384,22 @@ p{
 	color: #003F5E;
 	text-decoration: none;
 }
+.menu li:hover ul {
+	display: block;
+	position: absolute;
+	padding: 0;
+	margin: -16px; 
+	margin-top: 10px;
+	width: 10px;
+	float: none;
+
+}
+.menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 130px;
+
+}
 
 /*SEUDO CLASES*/
 p {
@@ -444,50 +407,3 @@ p {
 	font-weight: normal;
 	color: #333;
 }
-
-/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
-#galeria {
-  padding:0; 
-  margin:10px auto 10 auto; 
-  list-style-type:none; 
-  height:200px; 
-  width:770px; 
-  border:0px solid #000; 
-  }
-#galeria li {
-  width:40px;
-  height:230px; 
-  float:left; 
-  border-left:1px solid #000; 
-  }
-#galeria li img {
-  height:230px; 
-  width:40px; 
-  border:0;
-  }
-#galeria li:hover {
-  background:#eee; 
-  width:200px;
-  }
-#galeria li:hover img {
-  width:200px;
-  height:200px;
-  }
-/*  ELASTISLIDE */
-
- 
-
- @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-html { height: 100%; }
-
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	padding: 0;
-	margin: 10;
-}
-
