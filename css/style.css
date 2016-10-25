@@ -271,6 +271,49 @@ div {
 	position: relative;
 	color: #000;
 }
+
+#autores{
+	width: 999px;
+	background: white;
+	height: 720px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+
+#autor01{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+#autor02{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+#autor03{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+#autor04{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+
 #multimedia{
 width: 999px;
 	background: white;
@@ -278,6 +321,8 @@ width: 999px;
 	float: left;
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
+
+
 }
 /*ETIQUETAS*/
 body{
