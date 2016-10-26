@@ -94,6 +94,8 @@
             left: -1px;
             top: 206px;
             }
+
+
         strong {
 }
 div {
@@ -264,6 +266,54 @@ div {
 	left: 516px;
 	top: 1012px;
 }
+#multimedia{
+	width: 999px;
+	background: white;
+	height: 720px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;  
+}
+ #autores{
+ 	width: 999px;
+	background: white;
+	height: 720px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;            	
+            }
+#autor01{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px; 
+}
+#autor02{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px; 
+}
+#autor03{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px; 
+}
+#autor04{
+	width: 300px;
+	background: white;
+	height: 300px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px; 
+}
 #contenidos{
 	width: 1000px;
 	height: auto;
@@ -283,7 +333,7 @@ h1{
 	color: white;
 	margin-left: 10px;
 	font-size: 60px;
-	text-align: center;
+	text-align: center; 
 }
 h2{
 	font-family: Arial, Helvetica, sans-serif;
@@ -406,4 +456,47 @@ p {
 	font-size: 12px;
 	font-weight: normal;
 	color: #333;
+}
+
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+  
+#galeria {
+  padding:10; 
+  margin:40px auto 0 auto; 
+  list-style-type:none; 
+  height:200px; 
+  width:800px; 
+  border:0px solid #888; 
+  }
+#galeria li {
+  width:40px;
+  height:200px; 
+  float:left; 
+  border-left:0px solid #000; 
+  }
+#galeria li img {
+  height:200px; 
+  width:40px; 
+  border:0;
+  }
+#galeria li:hover {
+  background:#eee; 
+  width:200px;
+  }
+#galeria li:hover img {
+  width:200px;
+  }
+
+  @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 10;
 }
